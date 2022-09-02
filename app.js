@@ -184,6 +184,8 @@ function applyCompanion() {
 
 setInterval(applyCompanion, 1000)
 
+// NOTE this is our old code.... we started with creating a buy function for each upgrade or 'companion' then refactored it into one function: buyCompanion()
+
 
 // function buyWolf() {
 //     // console.log('buying wolf');
@@ -216,6 +218,16 @@ setInterval(applyCompanion, 1000)
 //     }
 // }
 
+
+// function buyUnicorn() {
+//     console.log('buying unicorn');
+//     if (hero.gold >= 500) {
+//         companions[1].remainingTurns += companions[1].purchasableTurns
+//         hero.gold -= 500
+//     }
+//     update()
+// }
+
 // function unicornHeal() {
 //     const unicorn = companions.find(c => c.name == 'unicorn')
 //     // @ts-ignore
@@ -228,14 +240,6 @@ setInterval(applyCompanion, 1000)
 //     }
 // }
 
-// function buyUnicorn() {
-//     console.log('buying unicorn');
-//     if (hero.gold >= 500) {
-//         companions[1].remainingTurns += companions[1].purchasableTurns
-//         hero.gold -= 500
-//     }
-//     update()
-// }
 
 
 // setInterval(wolfAttack, 1000)
